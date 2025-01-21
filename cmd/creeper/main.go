@@ -26,7 +26,7 @@ func main() {
 
 	createZipFile("datapack", "src/java/DP", *datapackDir, *baseName+"-datapack.zip")
 	createZipFile("resourcepack", "src/java/RP", *resourcePackDir, *baseName+"-resourcepack.zip")
-	createZipFile("addons", "src/bedrock/RP", *bedrockPackDir, *baseName+"-resourcepack.mcaddon")
+	createZipFile("addons", "src/bedrock/RP", *bedrockPackDir, *baseName+"-resourcepack.mcpack")
 }
 
 func makeDirs(path string) {
