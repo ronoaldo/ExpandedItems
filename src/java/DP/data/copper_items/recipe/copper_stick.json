@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " 2 ",
+    " 1 "
+  ],
+  "key": {
+    "1": "minecraft:stick",
+    "2": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Copper Stick\"",
+      "minecraft:item_model": "copper_items:copper_stick",
+      "minecraft:custom_model_data": {"floats":[42002]}
+    }
+  }
+}

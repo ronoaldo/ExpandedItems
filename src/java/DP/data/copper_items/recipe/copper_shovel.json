@@ -11,7 +11,7 @@
     "2": "minecraft:copper_ingot"
   },
   "result": {
-    "id": "minecraft:iron_shovel",
+    "id": "minecraft:wooden_shovel",
     "count": 1,
     "components": {
       "minecraft:max_damage": 300,

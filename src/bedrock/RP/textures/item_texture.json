@@ -4,6 +4,9 @@
   "texture_data": {
     "copper_shovel": {
       "textures": "textures/items/copper_shovel"
+    },
+    "copper_stick": {
+      "textures": "textures/items/copper_stick"
     }
   }
 }

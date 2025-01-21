@@ -1,12 +1,20 @@
 {
   "format_version": 1,
   "items": {
-    "minecraft:iron_shovel": [
+    "minecraft:wooden_shovel": [
       {
         "name": "copper_shovel",
         "display_name": "Copper Shovel",
         "custom_model_data": 42001,
         "icon": "copper_shovel"
+      }
+    ],
+    "minecraft:stick": [
+      {
+        "name": "copper_stick",
+        "display_name":"Copper Stick",
+        "custom_model_data": 42002,
+        "icon": "copper_stick"
       }
     ]
   }
