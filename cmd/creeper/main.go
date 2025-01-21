@@ -15,7 +15,7 @@ var (
 		"The directory to write datapacks to.")
 	resourcePackDir = flag.String("r", filepath.Join("output", "resourcepacks"),
 		"The directory to write resourcepacks to.")
-	bedrockPackDir = flag.String("b", filepath.Join("output", "mcaddon"),
+	bedrockPackDir = flag.String("b", filepath.Join("output", "mcpacks"),
 		"The directory to write Bedrock resourcepacks to.")
 )
 

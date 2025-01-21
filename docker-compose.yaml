@@ -13,23 +13,19 @@ services:
       SEED: "2786386421968123439"
       SPAWN_PROTECTION: 0
       ENFORCE_SECURE_PROFILE: "false"
-      DATAPACKS: /output/datapacks/copper-items-datapack.zip
-      RESOURCE_PACK: http://192.168.0.101:25567/resourcepacks/copper-items-resourcepack.zip
-      RESOURCE_PACK_SHA1: 95dae1be0c3e54e9bb75dc81e698539777f8aba4
+      RESOURCE_PACK: http://localhost:8080/resourcepacks/ExpandedItems-resourcepack.zip
+      RESOURCE_PACK_SHA1: SHASUM
       MODE: "creative" 
-      OPS: |-
-        PedrinhoKakashi
-        RonoaldoJLP
     ports:
       - "25566:25565"
       - "19132:19132/udp"
     volumes:
       - ./output:/output
-      - ./output/data:/data
+      - ./output/server:/data
     restart: unless-stopped
   dl:
     image: nginx
     volumes:
       - ./output/:/usr/share/nginx/html
     ports:
-      - "25567:80"
+      - "8080:80"

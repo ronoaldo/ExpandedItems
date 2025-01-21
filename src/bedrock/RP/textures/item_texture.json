@@ -1,9 +1,9 @@
 {
-    "resource_pack_name": "Copper Items RP",
-    "texture_name": "atlas.items",
-    "texture_data": {
-        "copper_items:copper_shovel": {
-            "textures": "textures/items/copper_shovel"
-        }
+  "resource_pack_name": "Copper Items RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "copper_shovel": {
+      "textures": "textures/items/copper_shovel"
     }
+  }
 }
