@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+      " 2 ",
+      " 1 ",
+      " 1 "
+  ],
+  "key": {
+    "1": "minecraft:stick",
+    "2": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "minecraft:iron_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:max_damage": 300,
+      "minecraft:item_name": "\"Copper Shovel\"",
+      "minecraft:item_model":  "copper_items:copper_shovel"
+    }
+  }
+}

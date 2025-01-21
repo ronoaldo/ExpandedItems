@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "Adds Copper Items to Minecraft (Geyser supported for cross play with Bedrock)",
+        "pack_format": 46,
+        "supported_formats": [46, 46]
+    }
+}
