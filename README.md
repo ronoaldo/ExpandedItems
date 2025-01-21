@@ -2,7 +2,7 @@ ExpandedItems
 =============
 
 Simple Minecraft extension to vanilla, with some expanded
-functionality for undesired items.
+functionality for underutilized materials and some new ones.
 
 This project provides the following resources:
 * Minecraft Java Data and Resource Packs: can be used to play
