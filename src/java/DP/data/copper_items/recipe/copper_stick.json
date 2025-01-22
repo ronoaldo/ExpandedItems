@@ -16,7 +16,7 @@
     "components": {
       "minecraft:item_name": "\"Copper Stick\"",
       "minecraft:item_model": "copper_items:copper_stick",
-      "minecraft:custom_model_data": {"floats":[42002]}
+      "minecraft:custom_model_data": {"floats":[42006]}
     }
   }
 }

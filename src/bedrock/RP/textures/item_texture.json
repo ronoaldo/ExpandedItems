@@ -5,6 +5,18 @@
     "copper_shovel": {
       "textures": "textures/items/copper_shovel"
     },
+    "copper_axe": {
+      "textures": "textures/items/copper_axe"
+    },
+    "copper_pickaxe": {
+      "textures": "textures/items/copper_pickaxe"
+    },
+    "copper_sword": {
+      "textures": "textures/items/copper_sword"
+    },
+    "copper_hoe": {
+      "textures": "textures/items/copper_hoe"
+    },
     "copper_stick": {
       "textures": "textures/items/copper_stick"
     }
