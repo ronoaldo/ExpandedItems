@@ -1,6 +1,8 @@
 ExpandedItems
 =============
 
+![expanded_items.png](expanded_items.png)
+
 Simple Minecraft extension to vanilla, with some expanded
 functionality for underutilized materials and some new ones.
 
