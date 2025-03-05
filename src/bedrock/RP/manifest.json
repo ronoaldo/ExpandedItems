@@ -5,7 +5,7 @@
     "description": "Adds Copper Items to Minecraft (Geyser supported for cross play with Bedrock)",
     "uuid": "b29df6d8-93b5-422b-a7d8-a090c30b1be2",
     "pack_scope": "world",
-    "version": [1, 63, 13294],
+    "version": [1, 63, 13490],
     "min_engine_version": [1, 21, 4]
   },
   "modules": [

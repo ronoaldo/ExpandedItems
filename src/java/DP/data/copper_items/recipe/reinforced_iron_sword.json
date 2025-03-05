@@ -18,20 +18,20 @@
                 {
                     "id": "copper_items:extra_speed",
                     "type": "minecraft:attack_speed",
-                    "amount": 1.9,
+                    "amount": 0.4,
                     "operation": "add_value",
                     "slot": "hand"
                 },
                 {
                     "id": "copper_items:extra_damage",
                     "type": "minecraft:attack_damage",
-                    "amount": 6,
+                    "amount": 0.4,
                     "operation": "add_value",
                     "slot": "hand"
                 }
             ],
-            "minecraft:max_damage": 550,
-	    "minecraft:item_name": "\"Reinforced Sword\"",
+            "minecraft:max_damage": 600,
+	    "minecraft:item_name": "\"Reinforced Iron Sword\"",
             "minecraft:item_model": "copper_items:reinforced_iron_sword",
             "minecraft:custom_model_data": {"floats": [43001]}
         }
