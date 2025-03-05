@@ -21,7 +21,8 @@
       "copper_items:copper_hoe",
       "copper_items:copper_pickaxe",
       "copper_items:copper_shovel",
-      "copper_items:copper_sword"
+      "copper_items:copper_sword",
+      "copper_items:reinforced_iron_sword"
     ]
   }
 }

@@ -65,6 +65,17 @@
         "creative_category": 3,
         "allow_offhand": true
       }
+    ],
+    "minecraft:iron_sword": [
+      {
+        "name": "reinforced_iron_sword",
+        "display_name": "Reinforced Sword",
+        "custom_model_data": 43001,
+        "icon": "reinforced_iron_sword",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.sword",
+        "allow_offhand": true
+      }
     ]
   }
 }

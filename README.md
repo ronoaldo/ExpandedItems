@@ -34,9 +34,10 @@ stone tools.
 ## Planned features
 
 Whe are planning to introduce some enhanced versions of the tools by
-smelting them with a Copper.
-For instance, a Copper reinforced Iron Sword, smelted by using a Copper Stick
-with a Iron Sword. The resulting tool increases durability and damage.
+smithing them with a Copper Stick.
+For instance, a Copper reinforced Iron Sword, obtained by using a 
+Copper Stick with a Iron Sword in smithing table.
+The resulting tool increases durability and damage.
 
 Some tools will be hard to craft but rewarding: a multi-use axe that can mine,
 and deals decent damage! The Heavy Copper Axe, will be made off a Copper Stick

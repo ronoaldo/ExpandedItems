@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " 1 ",
+      " 2 ",
+      " 1 "
+    ],
+    "key": {
+      "1": "minecraft:copper_block",
+      "2": "minecraft:iron_sword"
+    },
+    "result": {
+        "id": "minecraft:iron_sword",
+	"count": 1,
+        "components": {
+            "attribute_modifiers": [
+                {
+                    "id": "copper_items:extra_speed",
+                    "type": "minecraft:attack_speed",
+                    "amount": 1.9,
+                    "operation": "add_value",
+                    "slot": "hand"
+                },
+                {
+                    "id": "copper_items:extra_damage",
+                    "type": "minecraft:attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "hand"
+                }
+            ],
+            "minecraft:max_damage": 550,
+	    "minecraft:item_name": "\"Reinforced Sword\"",
+            "minecraft:item_model": "copper_items:reinforced_iron_sword",
+            "minecraft:custom_model_data": {"floats": [43001]}
+        }
+    }
+}

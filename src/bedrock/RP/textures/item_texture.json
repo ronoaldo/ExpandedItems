@@ -19,6 +19,9 @@
     },
     "copper_stick": {
       "textures": "textures/items/copper_stick"
+    },
+    "reinforced_iron_sword": {
+      "textures": "textures/items/reinforced_iron_sword"
     }
   }
 }

@@ -15,9 +15,9 @@ services:
       ENFORCE_SECURE_PROFILE: "false"
       RESOURCE_PACK: http://localhost:8080/resourcepacks/ExpandedItems-resourcepack.zip
       RESOURCE_PACK_SHA1: SHASUM
-      RCON_CMDS_ON_DISCONNECT: |-
-        setblock 0 123 0 minecraft:chest[facing=west]{Items:[{Slot:0,id:copper_ingot,count:64},{Slot:1,id:copper_ingot,count:64},{Slot:2,id:stick,count:64},{Slot:3,id:stick,count:64}]} destroy
-      MODE: "creative" 
+      RCON_CMDS_ON_CONNECT: |-
+        setblock 0 123 0 minecraft:chest[facing=west]{Items:[{Slot:0,id:copper_ingot,count:64},{Slot:1,id:iron_ingot,count:64},{Slot:2,id:stick,count:64},{Slot:3,id:stick,count:64},{Slot:4,id:smithing_table},{Slot:5,id:crafting_table}]} destroy
+      MODE: "survival" 
     ports:
       - "25566:25565"
       - "19132:19132/udp"
