@@ -4,7 +4,7 @@ ExpandedItems
 ![expanded_items.png](expanded_items.png)
 
 Simple Minecraft extension to vanilla, with some expanded
-functionality for underutilized materials and some new ones.
+functionality for underutilized materials.
 
 This project provides the following resources:
 * Minecraft Java Data and Resource Packs: can be used to play
@@ -23,15 +23,22 @@ These are slightly better versions than the stone ones:
 they endure more, but can't mine things an iron tool can,
 for instance.
 
-![coper_axe.png](src/java/RP/assets/copper_items/textures/item/copper_pickaxe.png)
+![coper_pickaxe.png](src/java/RP/assets/copper_items/textures/item/copper_pickaxe.png)
 ![coper_axe.png](src/java/RP/assets/copper_items/textures/item/copper_axe.png)
-![coper_axe.png](src/java/RP/assets/copper_items/textures/item/copper_hoe.png)
-![coper_axe.png](src/java/RP/assets/copper_items/textures/item/copper_shovel.png)
-![coper_axe.png](src/java/RP/assets/copper_items/textures/item/copper_sword.png)
+![coper_hoe.png](src/java/RP/assets/copper_items/textures/item/copper_hoe.png)
+![coper_shovel.png](src/java/RP/assets/copper_items/textures/item/copper_shovel.png)
+![coper_sword.png](src/java/RP/assets/copper_items/textures/item/copper_sword.png)
 
 These are designed as handy tools when mining for the first time looking for Iron,
 as well as for some building early in the game as a more durable alternative for
 stone tools.
+
+### Reinforced Iron Sword
+
+This sword is a little better than the Iron Sword, as it has more
+durability (600 uses) and it is slightly faster to use.
+
+![coper_sword.png](src/java/RP/assets/copper_items/textures/item/reinforced_iron_sword.png)
 
 ## Planned features
 
