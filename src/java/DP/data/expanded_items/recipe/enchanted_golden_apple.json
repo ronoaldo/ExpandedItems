@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "323",
+      "212",
+      "323"
+    ],
+    "key": {
+      "1": "minecraft:apple",
+      "2": "minecraft:gold_block",
+      "3": "minecraft:lapis_block"
+    },
+    "result": {
+      "id": "minecraft:enchanted_golden_apple",
+      "count": 1,
+      "components": {
+        "minecraft:max_stack_size": 1
+      }
+    }
+  }
+  
