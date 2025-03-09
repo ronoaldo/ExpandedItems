@@ -12,7 +12,10 @@ BN_2=$(shell echo $$(date +%S)/10 | bc)
 all: package
 
 validate:
-	find -type f -iname *.json -exec jq . {} \;
+	find src -type f -iname *.json | while read f ; do \
+		echo "Checking $$f" ;\
+		jq . $$f || exit 1 ;\
+	done
 
 build-number:
 	sed -e "s/\"BUILD_NUMBER\"/$(BN_1)$(BN_2)/g" -e "s/\"BUILD_DAY\"/$(BN_0)/g" src/bedrock/RP/manifest.in.json > src/bedrock/RP/manifest.json
