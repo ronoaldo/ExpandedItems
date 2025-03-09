@@ -40,6 +40,11 @@ durability (600 uses) and it is slightly faster to use.
 
 ![coper_sword.png](src/java/RP/assets/copper_items/textures/item/reinforced_iron_sword.png)
 
+### Enchanted Golden Apple Recipe
+
+You can now craft an Enchanted Golden Apple with four gold blocks, four
+lapis lazuli blocks and one apple in the midle of the grid.
+
 ## Planned features
 
 Whe are planning to introduce some enhanced versions of the tools by
