@@ -161,8 +161,8 @@ func addFilesToZip(srcDir fs.FS, zipFile *zip.Writer) func(path string, d fs.Dir
 }
 
 func replaceVersionString(b []byte) []byte {
-	b = bytes.ReplaceAll(b, []byte("BUILD_DAY"), []byte(buildDay))
-	b = bytes.ReplaceAll(b, []byte("BUILD_NUMBER"), []byte(buildNumber))
+	b = bytes.ReplaceAll(b, []byte("\"BUILD_DAY\""), []byte(buildDay))
+	b = bytes.ReplaceAll(b, []byte("\"BUILD_NUMBER\""), []byte(buildNumber))
 	return b
 }
 
