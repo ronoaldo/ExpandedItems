@@ -11,7 +11,7 @@
     "2": "minecraft:copper_ingot"
   },
   "result": {
-    "id": "minecraft:stone_hoe",
+    "id": "minecraft:iron_hoe",
     "count": 1,
     "components": {
       "minecraft:max_damage": 300,
