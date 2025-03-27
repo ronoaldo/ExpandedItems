@@ -26,3 +26,7 @@ server: package
 
 clean:
 	rm -rf output
+
+vanilla:
+	mkdir -p vanilla
+	curl https://raw.githubusercontent.com/misode/mcmeta/refs/heads/summary/item_components/data.json > vanilla/item_components.json
