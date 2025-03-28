@@ -25,16 +25,11 @@
             "correct_for_drops": true,
             "speed": 10.0
           }
-        ]
+        ],
+        "show_in_tooltip": false
       },
-      "minecraft:lore": [
-        "''",
-        "{'translate': 'item.modifiers.mainhand', 'color':'gray', 'italic':false}",
-        "[' ',{'translate':'attribute.modifier.equals.0','with':['4',{'translate':'attribute.name.attack_damage'}],'color':'dark_green','italic':false}]",
-        "[' ',{'translate':'attribute.modifier.equals.0','with':['1.3',{'translate':'attribute.name.attack_speed'}],'color':'dark_green','italic':false}]"
-      ],
       "minecraft:max_damage": 1000,
-      "minecraft:item_model": "copper_items:copper_pickaxe",
+      "minecraft:item_model": "copper_items:reinforced_iron_pickaxe",
       "minecraft:item_name": "'Reinforced Iron Pickaxe'",
       "minecraft:custom_model_data": {"floats": [43002]}
     }
