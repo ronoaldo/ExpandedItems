@@ -76,6 +76,17 @@
         "creative_group": "itemGroup.name.sword",
         "allow_offhand": true
       }
+    ],
+    "minecraft:iron_pickaxe": [
+      {
+        "name": "reinforced_iron_pickaxe",
+        "display_name": "Reinforced Pickaxe",
+        "custom_model_data": 43002,
+        "icon": "reinforced_iron_pickaxe",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.pickaxe",
+        "allow_offhand": true
+      }
     ]
   }
 }
