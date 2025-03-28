@@ -22,6 +22,9 @@
     },
     "reinforced_iron_sword": {
       "textures": "textures/items/reinforced_iron_sword"
+    },
+    "reinforced_iron_pickaxe": {
+      "textures": "textures/items/reinforced_iron_pickaxe"
     }
   }
 }

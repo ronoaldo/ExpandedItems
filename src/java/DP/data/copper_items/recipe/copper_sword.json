@@ -15,7 +15,7 @@
     "count": 1,
     "components": {
       "minecraft:max_damage": 300,
-      "minecraft:item_name": "\"Copper Sword\"",
+      "minecraft:item_name": "'Copper Sword'",
       "minecraft:item_model":  "copper_items:copper_sword",
       "minecraft:custom_model_data": {"floats": [42002]}
     }
