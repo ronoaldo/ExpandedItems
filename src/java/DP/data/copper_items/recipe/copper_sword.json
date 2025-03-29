@@ -8,7 +8,7 @@
   ],
   "key": {
     "1": "minecraft:stick",
-    "2": "minecraft:copper_ingot"
+    "2": "minecraft:copper_block"
   },
   "result": {
     "id": "minecraft:iron_sword",
