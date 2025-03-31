@@ -33,7 +33,6 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            README.md
             output/datapacks/ExpandedItems-datapack.zip
             output/resourcepacks/ExpandedItems-resourcepack.zip
             output/mcpacks/ExpandedItems-resourcepack.mcpack
