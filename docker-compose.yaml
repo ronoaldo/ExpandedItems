@@ -10,6 +10,7 @@ services:
         https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/hurricane/versions/latest/builds/latest/downloads/spigot
+        https://cdn.modrinth.com/data/P1OZGk5p/versions/ZbFOsGG3/ViaVersion-5.3.1.jar
       SEED: "2786386421968123439"
       SPAWN_PROTECTION: 0
       ENFORCE_SECURE_PROFILE: "false"

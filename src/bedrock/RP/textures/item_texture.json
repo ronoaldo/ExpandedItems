@@ -25,6 +25,9 @@
     },
     "reinforced_iron_pickaxe": {
       "textures": "textures/items/reinforced_iron_pickaxe"
+    },
+    "reinforced_iron_shovel":  {
+      "textures": "textures/items/reinforced_iron_shovel"
     }
   }
 }

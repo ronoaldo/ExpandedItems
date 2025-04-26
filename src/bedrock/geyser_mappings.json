@@ -87,6 +87,17 @@
         "creative_group": "itemGroup.name.pickaxe",
         "allow_offhand": true
       }
+    ],
+    "minecraft:iron_shovel": [
+      {
+        "name": "reinforced_iron_shovel",
+        "display_name": "Reinforced Shovel",
+        "custom_model_data": 43003,
+        "icon": "reinforced_iron_shovel",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.shovel",
+        "allow_offhand": true
+      }
     ]
   }
 }

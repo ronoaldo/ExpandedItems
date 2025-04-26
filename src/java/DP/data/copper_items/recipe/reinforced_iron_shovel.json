@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "111",
+      "121",
+      "111"
+    ],
+    "key": {
+      "1": "minecraft:copper_block",
+      "2": "minecraft:iron_shovel"
+    },
+    "result": {
+      "id": "minecraft:iron_shovel",
+      "count": 1,
+      "components": {
+        "minecraft:max_damage": 1450,
+        "minecraft:item_model": "copper_items:reinforced_iron_shovel",
+        "minecraft:item_name": "'Reinforced Iron Shovel'",
+        "minecraft:custom_model_data": {"floats": [43003]}
+      }
+    }
+  }
