@@ -28,6 +28,9 @@
     },
     "reinforced_iron_shovel":  {
       "textures": "textures/items/reinforced_iron_shovel"
-    }
+    },
+    "reinforced_iron_axe":  {
+      "textures": "textures/items/reinforced_iron_axe"
   }
+}
 }

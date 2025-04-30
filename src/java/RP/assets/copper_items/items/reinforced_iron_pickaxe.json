@@ -1,6 +1,8 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "copper_items:reinforced_iron_pickaxe"
+
+    "model": {
+      "type": "minecraft:model",
+      "model": "copper_items:reinforced_iron_pickaxe"
+    }
   }
-}
+  
