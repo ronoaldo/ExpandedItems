@@ -1,61 +1,6 @@
 {
   "format_version": 1,
   "items": {
-    "minecraft:stone_shovel": [
-      {
-        "name": "copper_shovel",
-        "display_name": "Copper Shovel",
-        "custom_model_data": 42001,
-        "icon": "copper_shovel",
-        "creative_category": 3,
-        "creative_group": "itemGroup.name.shovel",
-        "allow_offhand": true
-      }
-    ],
-    "minecraft:stone_sword": [
-      {
-        "name": "copper_sword",
-        "display_name": "Copper Sword",
-        "custom_model_data": 42002,
-        "icon": "copper_sword",
-        "creative_category": 3,
-        "creative_group": "itemGroup.name.sword",
-        "allow_offhand": true
-      }
-    ],
-    "minecraft:stone_axe": [
-      {
-        "name": "copper_axe",
-        "display_name": "Copper Axe",
-        "custom_model_data": 42003,
-        "icon": "copper_axe",
-        "creative_category": 3,
-        "creative_group": "itemGroup.name.axe",
-        "allow_offhand": true
-      }
-    ],
-    "minecraft:stone_pickaxe": [
-      {
-        "name": "copper_pickaxe",
-        "display_name": "Copper Pickaxe",
-        "custom_model_data": 42004,
-        "icon": "copper_pickaxe",
-        "creative_category": 3,
-        "creative_group": "itemGroup.name.pickaxe",
-        "allow_offhand": true
-      }
-    ],
-    "minecraft:stone_hoe": [
-      {
-        "name": "copper_hoe",
-        "display_name": "Copper Hoe",
-        "custom_model_data": 42005,
-        "icon": "copper_hoe",
-        "creative_category": 3,
-        "creative_group": "itemGroup.name.hoe",
-        "allow_offhand": true
-      }
-    ],
     "minecraft:stick": [
       {
         "name": "copper_stick",
@@ -68,6 +13,15 @@
     ],
     "minecraft:iron_sword": [
       {
+        "name": "copper_sword",
+        "display_name": "Copper Sword",
+        "custom_model_data": 42002,
+        "icon": "copper_sword",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.sword",
+        "allow_offhand": true
+      },
+      {
         "name": "reinforced_iron_sword",
         "display_name": "Reinforced Sword",
         "custom_model_data": 43001,
@@ -78,6 +32,15 @@
       }
     ],
     "minecraft:iron_pickaxe": [
+      {
+        "name": "copper_pickaxe",
+        "display_name": "Copper Pickaxe",
+        "custom_model_data": 42004,
+        "icon": "copper_pickaxe",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.pickaxe",
+        "allow_offhand": true
+      },
       {
         "name": "reinforced_iron_pickaxe",
         "display_name": "Reinforced Pickaxe",
@@ -90,6 +53,15 @@
     ],
     "minecraft:iron_shovel": [
       {
+        "name": "copper_shovel",
+        "display_name": "Copper Shovel",
+        "custom_model_data": 42001,
+        "icon": "copper_shovel",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.shovel",
+        "allow_offhand": true
+      },
+      {
         "name": "reinforced_iron_shovel",
         "display_name": "Reinforced Shovel",
         "custom_model_data": 43003,
@@ -101,12 +73,32 @@
     ],
     "minecraft:iron_axe": [
       {
+        "name": "copper_axe",
+        "display_name": "Copper Axe",
+        "custom_model_data": 42003,
+        "icon": "copper_axe",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.axe",
+        "allow_offhand": true
+      },
+      {
         "name": "reinforced_iron_axe",
         "display_name": "Reinforced Axe",
         "custom_model_data": 43004,
         "icon": "reinforced_iron_axe",
         "creative_category": 3,
         "creative_group": "itemGroup.name.axe",
+        "allow_offhand": true
+      }
+    ],
+    "minecraft:iron_hoe": [
+      {
+        "name": "copper_hoe",
+        "display_name": "Copper Hoe",
+        "custom_model_data": 42005,
+        "icon": "copper_hoe",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.hoe",
         "allow_offhand": true
       }
     ]
