@@ -18,6 +18,9 @@ services:
       RESOURCE_PACK_SHA1: SHASUM
       RCON_CMDS_ON_CONNECT: |-
         setworldspawn 2 123 0
+        gamerule spawnRadius 0
+        scoreboard objectives add TotalDamage minecraft.custom:minecraft.damage_dealt "Total Damage"
+        scoreboard objectives setdisplay sidebar TotalDamage
         setblock 0 123 0 minecraft:chest[facing=west]{Items:[{Slot:0,id:copper_block,count:64},{Slot:1,id:iron_ingot,count:64},{Slot:2,id:stick,count:64},{Slot:3,id:stick,count:64},{Slot:4,id:smithing_table},{Slot:5,id:crafting_table}]} destroy
       MODE: "survival" 
     ports:

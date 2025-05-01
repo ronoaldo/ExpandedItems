@@ -98,18 +98,17 @@
         "creative_group": "itemGroup.name.shovel",
         "allow_offhand": true
       }
-      ],
-      "minecraft:iron_axe": 
-        {
-          "name": "reinforced_iron_axe",
-          "display_name": "Reinforced Axe",
-          "custom_model_data": 43004,
-          "icon": "reinforced_iron_axe",
-          "creative_category": 3,
-          "creative_group": "itemGroup.name.",
-          "allow_offhand": true
-        }
-     
-    
+    ],
+    "minecraft:iron_axe": [
+      {
+        "name": "reinforced_iron_axe",
+        "display_name": "Reinforced Axe",
+        "custom_model_data": 43004,
+        "icon": "reinforced_iron_axe",
+        "creative_category": 3,
+        "creative_group": "itemGroup.name.axe",
+        "allow_offhand": true
+      }
+    ]
   }
 }
