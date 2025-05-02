@@ -1,0 +1,9 @@
+# Copy this file to docker-compose.override.yaml and change the required Settings.
+# This is needed to test a localserver and get the SHA1SUM updated.
+services:
+  mc:
+    environment:
+      RESOURCE_PACK_SHA1: SHA1SUM
+      OPS: |
+        RonoaldoJLP
+        PedrinhoKakashi
