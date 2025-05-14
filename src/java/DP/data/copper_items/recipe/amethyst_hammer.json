@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "313",
+    " 2 ",
+    " 2 "
+  ],
+  "key": {
+    "1": "minecraft:diamond_block",
+    "2": "minecraft:copper_block",
+    "3": "minecraft:amethyst_block"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "'Amethyst Hammer'",
+      "minecraft:item_model": "copper_items:amethyst_hammer",
+      "minecraft:custom_model_data": {"floats":[42008]}
+    }
+  }
+}

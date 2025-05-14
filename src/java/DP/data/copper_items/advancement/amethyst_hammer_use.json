@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "used_amethyst_hammer": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stick"
+          ],
+          "components": {
+            "minecraft:item_model": "copper_items:amethyst_hammer"
+          }
+        },
+        "entity": {
+          "type": "minecraft:glow_item_frame"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["used_amethyst_hammer"]
+  ],
+  "rewards": {
+    "function": "copper_items:amethyst_hammer_use"
+  }
+}
