@@ -18,12 +18,16 @@ execute at @e[tag=raycast_found] unless block ~ ~-1 ~ minecraft:amethyst_block \
 execute at @e[tag=raycast_found] unless block ~ ~-1 ~ minecraft:amethyst_block \
   run return run function copper_items:raycast_end
 
-# If we are all set, let's revert the repair cost back to 35
-data modify entity @e[tag=raycast_found,limit=1] \
-  Item.components.minecraft:repair_cost set value 35
+# Get the current repair cost value and store it
+execute store result score @e[tag=raycast_found] copper_items.current_repair_cost \
+  run data get entity @e[tag=raycast_found,limit=1] Item.components.minecraft:repair_cost
+
+# If we are all set, let's revert the repair cost back to 38
+data modify entity @e[tag=raycast_found,limit=1,scores={copper_items.current_repair_cost=39..}] \
+  Item.components.minecraft:repair_cost set value 38
 
 # Show the particles to display success
-execute at @e[tag=raycast_found] \
+execute at @e[tag=raycast_found,scores={copper_items.current_repair_cost=39..}] \
   run particle minecraft:dust{color:[1, 0, 1], scale:1} ~ ~0.3 ~ 0.125 0.125 0.125 1 10
 
 # Cleanup
