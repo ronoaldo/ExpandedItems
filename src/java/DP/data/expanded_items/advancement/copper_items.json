@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_copper_ingot"]
+  ],
+  "rewards": {
+    "recipes": [
+      "expanded_items:copper_axe",
+      "expanded_items:copper_hoe",
+      "expanded_items:copper_pickaxe",
+      "expanded_items:copper_shovel",
+      "expanded_items:copper_sword",
+      "expanded_items:reinforced_iron_sword",
+      "expanded_items:reinforced_iron_pickaxe",
+      "expanded_items:reinforced_iron_axe",
+      "expanded_items:reinforced_iron_shovel"
+    ]
+  }
+}

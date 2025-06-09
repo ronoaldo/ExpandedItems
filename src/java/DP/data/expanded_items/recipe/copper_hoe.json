@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "22 ",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "1": "minecraft:stick",
+    "2": "minecraft:copper_block"
+  },
+  "result": {
+    "id": "minecraft:iron_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:max_damage": 300,
+      "minecraft:item_name": "'Copper Hoe'",
+      "minecraft:item_model":  "expanded_items:copper_hoe",
+      "minecraft:custom_model_data": {"floats": [42005]}
+    }
+  }
+}

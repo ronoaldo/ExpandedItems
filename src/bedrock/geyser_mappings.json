@@ -9,6 +9,14 @@
         "icon": "copper_stick",
         "creative_category": 3,
         "allow_offhand": true
+      },
+      {
+        "name": "amethyst_hammer",
+        "display_name":"Amethyst Hammer",
+        "custom_model_data": 42008,
+        "icon": "amethyst_hammer",
+        "creative_category": 3,
+        "allow_offhand": true
       }
     ],
     "minecraft:iron_sword": [

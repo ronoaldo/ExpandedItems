@@ -1,0 +1,1 @@
+$execute if score #global expanded_items.debug = 1 tellraw @s "$(msg)"

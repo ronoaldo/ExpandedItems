@@ -10,18 +10,22 @@ services:
         https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/hurricane/versions/latest/builds/latest/downloads/spigot
-        https://cdn.modrinth.com/data/P1OZGk5p/versions/ZbFOsGG3/ViaVersion-5.3.1.jar
+        https://cdn.modrinth.com/data/P1OZGk5p/versions/cdC9vQSF/ViaVersion-5.3.2.jar
       SEED: "2786386421968123439"
       SPAWN_PROTECTION: 0
       ENFORCE_SECURE_PROFILE: "false"
-      RESOURCE_PACK: http://localhost:8080/resourcepacks/ExpandedItems-resourcepack.zip
+      RESOURCE_PACK: http://localhost/resourcepacks/ExpandedItems-resourcepack.zip
+      RESOURCE_PACK_ID: daf5c51f-1d2f-3d92-b413-3f4335aa2070
       RESOURCE_PACK_SHA1: SHASUM
-      RCON_CMDS_ON_CONNECT: |-
+      RCON_CMDS_STARTUP: |-
         setworldspawn 2 123 0
         gamerule spawnRadius 0
         scoreboard objectives add TotalDamage minecraft.custom:minecraft.damage_dealt "Total Damage"
         scoreboard objectives setdisplay sidebar TotalDamage
-        setblock 0 123 0 minecraft:chest[facing=east]{Items:[{Slot:0,id:copper_block,count:64},{Slot:1,id:iron_ingot,count:64},{Slot:2,id:stick,count:64},{Slot:3,id:stick,count:64},{Slot:4,id:smithing_table},{Slot:5,id:crafting_table}]} destroy
+        setblock 0 123 0 minecraft:chest[facing=east]{Items:[{Slot:0,id:copper_block,count:64},{Slot:1,id:iron_ingot,count:64},{Slot:2,id:stick,count:64},{Slot:3,id:stick,count:64},{Slot:4,id:smithing_table},{Slot:5,id:crafting_table},{Slot:6,id:amethyst_block,count:64},{Slot:7,id:diamond_block,count:64},{Slot:8,id:glow_item_frame,count:64}]} destroy
+        difficulty peaceful
+      RCON_CMDS_ON_CONNECT: |-
+        recipe give @a *
       MODE: "survival" 
     ports:
       - "25565:25565"
@@ -30,9 +34,11 @@ services:
       - ./output:/output
       - ./output/server:/data
     restart: unless-stopped
+    network_mode: host
   dl:
     image: nginx
     volumes:
       - ./output/:/usr/share/nginx/html
     ports:
-      - "8080:80"
+      - "80:80"
+    network_mode: host

@@ -34,6 +34,9 @@
     },
     "reinforced_iron_hoe": {
       "textures": "textures/items/reinforced_iron_hoe"
+    },
+    "amethyst_hammer": {
+      "textures": "textures/items/amethyst_hammer"
     }
   }
 }

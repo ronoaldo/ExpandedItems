@@ -1,1 +1,0 @@
-$execute if score #global copper_items.debug = 1 tellraw @s "$(msg)"

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "key": {
+    "1": "minecraft:copper_block",
+    "2": "minecraft:iron_hoe"
+  },
+  "result": {
+    "id": "minecraft:iron_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "fortune": 1
+      },
+      "minecraft:max_damage": 1450,
+      "minecraft:item_model": "expanded_items:reinforced_iron_hoe",
+      "minecraft:item_name": "'Reinforced Iron hoe'",
+      "minecraft:custom_model_data": { "floats": [43005] }
+    }
+  }
+}
