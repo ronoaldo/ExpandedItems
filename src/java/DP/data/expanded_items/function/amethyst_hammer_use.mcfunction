@@ -23,11 +23,11 @@ execute store result score @e[tag=raycast_found] expanded_items.current_repair_c
   run data get entity @e[tag=raycast_found,limit=1] Item.components.minecraft:repair_cost
 
 # If we are all set, let's revert the repair cost back to 38
-data modify entity @e[tag=raycast_found,limit=1,scores={expanded_items.current_repair_cost=39..}] \
-  Item.components.minecraft:repair_cost set value 38
+data modify entity @e[tag=raycast_found,limit=1,scores={expanded_items.current_repair_cost=20..}] \
+  Item.components.minecraft:repair_cost set value 20
 
 # Show the particles to display success
-execute at @e[tag=raycast_found,scores={expanded_items.current_repair_cost=39..}] \
+execute at @e[tag=raycast_found,scores={expanded_items.current_repair_cost=20..}] \
   run particle minecraft:dust{color:[1, 0, 1], scale:1} ~ ~0.3 ~ 0.125 0.125 0.125 1 10
 
 # Cleanup
