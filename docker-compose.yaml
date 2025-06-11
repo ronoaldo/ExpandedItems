@@ -22,6 +22,7 @@ services:
         gamerule spawnRadius 0
         scoreboard objectives add TotalDamage minecraft.custom:minecraft.damage_dealt "Total Damage"
         scoreboard objectives setdisplay sidebar TotalDamage
+        scoreboard objectives setdisplay sidebar expanded_items.current_repair_cost
         setblock 0 123 0 minecraft:chest[facing=east]{Items:[{Slot:0,id:copper_block,count:64},{Slot:1,id:iron_ingot,count:64},{Slot:2,id:stick,count:64},{Slot:3,id:stick,count:64},{Slot:4,id:smithing_table},{Slot:5,id:crafting_table},{Slot:6,id:amethyst_block,count:64},{Slot:7,id:diamond_block,count:64},{Slot:8,id:glow_item_frame,count:64}]} destroy
         difficulty peaceful
       RCON_CMDS_ON_CONNECT: |-
