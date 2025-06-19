@@ -5,12 +5,13 @@ services:
     tty: true
     environment:
       EULA: "true"
-      TYPE: "PAPER"
+      TYPE: "FABRIC"
+      VERSION: "1.21.6"
       PLUGINS: |
-        https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
-        https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
-        https://download.geysermc.org/v2/projects/hurricane/versions/latest/builds/latest/downloads/spigot
-        https://cdn.modrinth.com/data/P1OZGk5p/versions/cdC9vQSF/ViaVersion-5.3.2.jar
+        https://cdn.modrinth.com/data/P7dR8mSH/versions/N3z6cNQv/fabric-api-0.127.1%2B1.21.6.jar
+        https://download.geysermc.org/v2/projects/geyserpreview/versions/pr.5603/builds/latest/downloads/fabric
+        https://cdn.modrinth.com/data/bWrNNfkb/versions/dNRdr9Ra/Floodgate-Fabric-2.2.4-b44.jar
+        https://cdn.modrinth.com/data/cKrS5WCg/versions/5pD5TgTl/hurricane-fabric-2.1.0%2Bbuild.183.jar
       SEED: "2786386421968123439"
       SPAWN_PROTECTION: 0
       ENFORCE_SECURE_PROFILE: "false"

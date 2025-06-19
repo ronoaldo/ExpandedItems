@@ -16,7 +16,7 @@
       "components": {
         "minecraft:max_damage": 1450,
         "minecraft:item_model": "expanded_items:reinforced_iron_shovel",
-        "minecraft:item_name": "'Reinforced Iron Shovel'",
+        "minecraft:item_name": "Reinforced Iron Shovel",
         "minecraft:custom_model_data": {"floats": [43003]}
       }
     }

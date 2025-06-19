@@ -15,7 +15,7 @@
     "count": 1,
     "components": {
       "minecraft:max_damage": 300,
-      "minecraft:item_name": "'Copper Hoe'",
+      "minecraft:item_name": "Copper Hoe",
       "minecraft:item_model":  "expanded_items:copper_hoe",
       "minecraft:custom_model_data": {"floats": [42005]}
     }

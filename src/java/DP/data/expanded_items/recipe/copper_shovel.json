@@ -15,7 +15,7 @@
     "count": 1,
     "components": {
       "minecraft:max_damage": 300,
-      "minecraft:item_name": "'Copper Shovel'",
+      "minecraft:item_name": "Copper Shovel",
       "minecraft:item_model":  "expanded_items:copper_shovel",
       "minecraft:custom_model_data": {"floats": [42001]}
     }

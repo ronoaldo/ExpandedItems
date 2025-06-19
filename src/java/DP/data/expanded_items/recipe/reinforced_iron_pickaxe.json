@@ -30,7 +30,7 @@
       },
       "minecraft:max_damage": 1000,
       "minecraft:item_model": "expanded_items:reinforced_iron_pickaxe",
-      "minecraft:item_name": "'Reinforced Iron Pickaxe'",
+      "minecraft:item_name": "Reinforced Iron Pickaxe",
       "minecraft:custom_model_data": {"floats": [43002]}
     }
   }

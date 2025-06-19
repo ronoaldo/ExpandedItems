@@ -19,7 +19,7 @@
       },
       "minecraft:max_damage": 1450,
       "minecraft:item_model": "expanded_items:reinforced_iron_hoe",
-      "minecraft:item_name": "'Reinforced Iron hoe'",
+      "minecraft:item_name": "Reinforced Iron hoe",
       "minecraft:custom_model_data": { "floats": [43005] }
     }
   }
