@@ -40,7 +40,7 @@
         "hidden_components": ["minecraft:attribute_modifiers"]
       },
       "minecraft:max_damage": 1035,
-      "minecraft:item_name": "\"Reinforced Iron Axe\"",
+      "minecraft:item_name": "Reinforced Iron Axe",
       "minecraft:item_model": "expanded_items:reinforced_iron_axe",
       "minecraft:custom_model_data": {"floats": [43004]}
     }
