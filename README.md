@@ -18,11 +18,11 @@ This project provides the following resources:
 
 ### Basic Copper Tools
 
-![copper_pickaxe.png](src/java/RP/assets/copper_items/textures/item/copper_pickaxe.png)
-![copper_axe.png](src/java/RP/assets/copper_items/textures/item/copper_axe.png)
-![copper_hoe.png](src/java/RP/assets/copper_items/textures/item/copper_hoe.png)
-![copper_shovel.png](src/java/RP/assets/copper_items/textures/item/copper_shovel.png)
-![copper_sword.png](src/java/RP/assets/copper_items/textures/item/copper_sword.png)
+![copper_axe.png](src/java/RP/assets/expanded_items/textures/item/copper_axe.png)
+![copper_hoe.png](src/java/RP/assets/expanded_items/textures/item/copper_hoe.png)
+![copper_pickaxe.png](src/java/RP/assets/expanded_items/textures/item/copper_pickaxe.png)
+![copper_shovel.png](src/java/RP/assets/expanded_items/textures/item/copper_shovel.png)
+![copper_sword.png](src/java/RP/assets/expanded_items/textures/item/copper_sword.png)
 
 Each of the game iron tools have a Copper based recipe.
 The recipe utilizes copper block instead of an iron ingot.
@@ -36,8 +36,11 @@ looking for Iron, as well as for some building early in the game.
 
 ### Reinforced Iron Tools
 
-![reinforced_iron_sword.png](src/java/RP/assets/copper_items/textures/item/reinforced_iron_sword.png)
-![reinforced_iron_pickaxe.png](src/java/RP/assets/copper_items/textures/item/reinforced_iron_pickaxe.png)
+![reinforced_iron_axe.png](src/java/RP/assets/expanded_items/textures/item/reinforced_iron_axe.png)
+![reinforced_iron_hoe.png](src/java/RP/assets/expanded_items/textures/item/reinforced_iron_hoe.png)
+![reinforced_iron_pickaxe.png](src/java/RP/assets/expanded_items/textures/item/reinforced_iron_pickaxe.png)
+![reinforced_iron_shovel.png](src/java/RP/assets/expanded_items/textures/item/reinforced_iron_shovel.png)
+![reinforced_iron_sword.png](src/java/RP/assets/expanded_items/textures/item/reinforced_iron_sword.png)
 
 These are upgrades to the Iron tools utilizing 8 copper blocks around them.
 The lore is that you reinforced the tool with copper, giving it extra speed,
@@ -46,18 +49,36 @@ durability and dealt damage.
 They are designed to be better than Iron but not better than Diamond.
 
 The **Reinforced Iron Sword** is a better than the Iron Sword, as it has more
-durability (600 uses) and it is slightly faster to use giving out more damage
+durability and it is slightly faster to use giving out more damage
 than the bare Iron one.
 
 The **Reinforced Iron Pickaxe** has more durability as well, and is faster to mine
 than the bare Iron one.
 
-### Enchanted Golden Apple Recipe
+The **Reinforced Iron Hoe** comes already enchanted with Fortune I.
 
-You can now craft an Enchanted Golden Apple with four gold blocks, four
-lapis lazuli blocks and one apple in the midle of the grid.
+The other tools have no extra features beyond durability.
 
-This recipe brings back the Enchanted Golden Apple as a craftable item.
+### New Repair Cost Mechanic
+
+When you have an item that is already on the repair cost limit,
+you can fix that by using a special magick Amethyst Table and Hammer.
+
+First, craft an Amethyst Hammer using it recipe in a craft table:
+
+![Amethyst Hammer](./assets/amethyst_hammer_craft.png)
+
+Next, create a special table by placing an Amethyst Block, and on top
+of it, a Glow Item Frame, like the picture bellow:
+
+![Amethyst Table](./assets/amethyst_table.png)
+
+Now the magick happens! Place the item you want to reduce the repair cost
+into the glow item frame, and use the hammer on it. Purple particles will
+show that the cost has been reset to a usable value of 20, so your next repair
+should cost around 21-23 XP. This also allows for more easily enchant your
+gear: if the next enchantment is too expensive, you can then do the same
+procedure and add another enchantment with a book to your tool.
 
 ## Planned features (subject to change)
 
